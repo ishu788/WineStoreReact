@@ -1,5 +1,29 @@
 .App {
-  text-align: center;
+  
+ 
+  justify-content: center;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(3, 10fr);
+  flex-wrap: wrap; /* Allow cards to wrap to the next line if necessary */
+  justify-content: center;
+}
+
+.card {
+  margin: 20px;
+  text-align: center; /* Center text in the card */
+}
+
+.card p {
+  margin-bottom: 8px;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
 }
 
 .App-logo {
